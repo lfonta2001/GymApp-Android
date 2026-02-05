@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- EXERCISE GENERAL CATEGORIES LABELS -->
+    <string name="ec_abdominal">Abdominal</string>
+    <string name="ec_back">Costas</string>
+    <string name="ec_chest">Peito</string>
+    <string name="ec_legs">Pernas</string>
+    <string name="ec_shoulder">Ombros</string>
+</resources>

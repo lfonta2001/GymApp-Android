@@ -1,0 +1,1 @@
+Propósito: Este es el centro de control que le dice a Hilt (o Koin) cómo construir y proveer todas las piezas de tu aplicación. Define las "recetas" para crear objetos y los inyecta automáticamente donde se necesiten (@Inject). Esto desacopla tus clases.

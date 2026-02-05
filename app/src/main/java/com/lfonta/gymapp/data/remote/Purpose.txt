@@ -1,0 +1,9 @@
+Responsabilidad: Todo lo relacionado con la API de Retrofit.
+
+dto/: Contiene los Data Transfer Objects. Son clases de datos (data class) que replican EXACTAMENTE la estructura del JSON de tu API. Deben estar anotadas con @Serializable ya que usas kotlinx-serialization.
+
+mappers/: Aquí es donde vivirán las funciones de extensión que convierten DTOs a Modelos de Dominio y viceversa (toDomain(), toDto()). Esto centraliza la lógica de mapeo.
+
+Ejemplo en: data/remote/mappers/RoutineMappers.kt
+    fun RoutineDto.toDomain(): Routine { /* ... lógica ... */ }
+    fun Routine.toDto(): RoutineDto { /* ... lógica ... */ }

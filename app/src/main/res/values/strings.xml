@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">GymApp</string>
+
+    <!-- EXERCISE GENERAL CATEGORIES LABELS -->
+    <string name="ec_abdominal">Abdominal</string>
+    <string name="ec_back">Espalda</string>
+    <string name="ec_chest">Pecho</string>
+    <string name="ec_legs">Piernas</string>
+    <string name="ec_shoulder">Hombros</string>
+</resources>

@@ -1,0 +1,4 @@
+Responsabilidad: Contiene las clases que implementan las interfaces de repositorio de la capa de dominio.
+
+¿Qué hacen? Son el cerebro de la capa de datos. Orquestan las fuentes de datos. Por ejemplo, RoutineRepositoryImpl podría:a.Recibir una llamada a getUserRoutines().b.Primero, intentar obtener las rutinas de la API (routineApiService.getRoutines()).c.Si tiene éxito, guarda las rutinas (previamente mapeadas a entidades de Room) en la base de datos local (routineDao.insertAll()).d.Mapea los DTOs recibidos a Modelos de Dominio y los devuelve.e.Si la API falla, intenta cargar las rutinas desde la caché de la base de datos local (routineDao.getAll()) y las devuelve (mapeadas a Modelos de Dominio).
+
